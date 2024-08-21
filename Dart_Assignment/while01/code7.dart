@@ -1,9 +1,12 @@
-//program to print cube of numbers divisible by 7 in range 20-60
+//program to print square of odd  numbers and cube of even digits 
 
 void main(){
-  int i=20;
-  while(i<=60){
-    if(i%7==0){
+  int i=40;
+  while(i<=50){
+    if(i%2==1){
+      print(i*i);
+    }
+    else{
       print(i*i*i);
     }
     i++;

@@ -1,11 +1,12 @@
-//program to print sum of all numbers in table of 12
+//program to print product of odd numbers in table of 10-1
 void main(){
-  int num=12;
-  int sum=0;
-  int i=1;
-  while(i<=10){
-    sum+=num*i;
-    i++;
+  int mult=1;
+  int i=10;
+  while(i>=1){
+    if(i%2==1){
+      mult=mult*i;
+    }
+    i--;
   }
-  print(sum);
+  print(mult);
 }

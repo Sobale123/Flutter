@@ -1,9 +1,9 @@
-//program to print numbers that are divisible by both 4 and 3 in range 1-100
+//program to print square of even digits bwtween 40-50 
 void main(){
-  int i=1;
-  while(i<=100){
-    if(i%4==0 && i%3==0){
-      print(i);
+  int i=40;
+  while(i<=50){
+    if(i%2==0){
+      print(i*i);
       
     }
     i++;

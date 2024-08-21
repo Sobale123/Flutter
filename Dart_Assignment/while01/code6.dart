@@ -1,10 +1,11 @@
-//program to print numbers who are not divisible by 4 and their remainder when divided by 4 is 3;
+//program to print square of odd digits bwtween 20-10 
 void main(){
   int i=20;
-  while(i<=50){
-    if(i%4==3){
-      print(i);
+  while(i>=10){
+    if(i%2==1){
+      print(i*i);
+      
     }
-    i++;
+    i--;
   }
 }

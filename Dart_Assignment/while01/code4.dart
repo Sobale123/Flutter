@@ -1,8 +1,10 @@
-//program to print square of numbers in range 100 to120
+//program to print even numbers between 50-30
+
 void main(){
-  int i=100;
-  while(i<=120){
-    print(i*i);
+  int i=30;
+  while(i<=50){
+    if(i%2==0)
+    print(i);
      i++;
   }
  

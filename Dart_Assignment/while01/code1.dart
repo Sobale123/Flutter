@@ -1,8 +1,9 @@
-//program to print numbers from 31-55
+//table of 4
 void main(){
-  int i=31;
-  while(i<=55){
-    print(i);
-    i++;
-  }
+int i=1;
+int num=4;
+while(i<=10){
+print(i*num);
+i++;
+}
 }

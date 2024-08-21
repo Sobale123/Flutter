@@ -1,10 +1,13 @@
-//program to print sum of square of numbers in range 1-15
+//program to print countdown  of days
 void main(){
-  int i=1;
-  int sum=0;
-  while(i<=15){
-    sum+=(i*i);
-    i++;
+  int days=7;
+  while(days>=0){
+    if(days==0){
+      print("0 days aasigment is overdue");
+    }
+    else{
+      print("$days days remaining");
+    }
+    days--;
   }
-  print(sum);
 }

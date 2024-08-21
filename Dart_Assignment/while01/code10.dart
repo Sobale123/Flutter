@@ -1,12 +1,12 @@
 void main(){
-  int i=20;
-  while(i<=70){
-    if(i%2==1){
-      print(i*i);
-    }
-    else{
-      print(i*i*i);
-    }
+  int i=1;
+  while(i<=10){
+   if(i==5){
     i++;
+    continue;
+   }
+   print(i);
+   i++;
+    
   }
 }
